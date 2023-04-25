@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>F. Registro</title>
+</head>
+<body>
+    <form>
+        <h1>Login</h1>
+        <!--Campo de nombres-->
+        <label for="name">Nombres:</label>
+        <input type="text" id="name" placeholder="Ingrese sus nombres"> 
+        <br>
+        <br>
+        <!--Campo de apellidos-->
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" placeholder="Ingrese sus apellidos">
+        <br>
+        <br>
+        <!--Campo de correo -->
+        <label for="mail">Correo:</label>
+        <input type="email" id="mail" placeholder="Ingrese su correo" required>
+        <br>
+        <br>
+        <!--campo de contraseña-->
+        <label for="pass">Contraseña:</label>
+        <input type="password" id="pass" placeholder="Ingrese su contraseña" required>
+        <!--campo de pais-->
+        <br>
+        <br>
+        <!--campo de telefono-->
+        <label for="tele">Telefono:</label>
+        <input type="tel" id="tele" placeholder="Ingrese su telefono">
+        <br>
+        <br>
+        <!--campo de seleccion pais-->
+        <p>Selecciona tu pais:</p>
+        <label>Colombia</label>
+        <input type="radio" name="pais" id="pais-colombia" value="Colombia">
+        <br>
+        <br>
+        <label>Peru</label>
+        <input type="radio" name="pais" id="pais-peru" value="peru">
+        <br>
+        <br>
+        <label>Brasil</label>
+        <input type="radio" name="pais" id="pais-brasil" value="brasil">
+        <br>
+        <br>
+        <!--Campo de fecha nacimiento-->
+        <label for="fecha">Fecha nacimineto:</label>
+        <input type="date" id="fecha" placeholder="Ingrese su fecha de nacimiento">
+        <br>
+        <br>
+        <!--Campo de seleccionar-->
+        <br>
+        <br>
+        <h3>seleccione su genero:</h3>
+        <select>
+            <option value="f">Femenino</option>
+            <option value="m">Masculino</option>
+        </select>
+        <br>
+        <br>
+        <!--Campo de terminos y condiciones-->
+        <label>Acepto terminos y condiciones:</label>
+        <input type="checkbox" required>
+        <br>
+        <br>
+        <!--boton de enviar-->
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
